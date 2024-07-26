@@ -1,0 +1,83 @@
+/* -------------Nav bar ---------------- */
+
+nav {
+    z-index: 5;
+    position: fixed;
+    width: 100%;
+    height: 80px;
+    padding-inline: 8vw;
+    background-color: rgb(4, 6, 15);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: all ease 0.5s;
+}
+
+.nav-bar {
+    transition: all ease 0.5s;
+    align-items: center;
+    display: flex;
+    gap: 40px;
+}
+
+.nav-logo {
+    color: var(--color-black);
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.nav-bar li {
+    list-style: none;
+}
+
+.nav-bar a {
+    font-style: normal;
+    font-weight: 500;
+    text-decoration: none;
+    color: var(--secondary-color);
+}
+
+.menulines {
+    display: none;
+}
+
+.menulinebtn {
+    cursor: pointer;
+    color: var(--color-black);
+    background-color: transparent;
+    border: none;
+    font-size: 23px;
+}
+
+@media (max-width: 768px) {
+    .nav-bar {
+        display: none;
+    }
+
+    .nav-bar.active {
+        transition: all 0.5s ease;
+        backdrop-filter: blur(10px);
+        background-color: rgba(0, 0, 5, 0.547);
+        height: 100vh;
+        padding: 100px;
+        width: 100vw;
+        left: 0px;
+        top: 80px;
+        position: fixed;
+        flex-direction: column;
+        display: flex;
+    }
+
+    .menulines {
+        display: block;
+    }
+
+    .nav-section {
+        margin: 10px 0;
+    }
+
+    .menulinebtn {
+        display: block;
+    }
+}

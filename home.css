@@ -1,0 +1,120 @@
+/*--------------------------Home ---------------------------------*/
+.home {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+    color: white;
+    min-height: 700px;
+    gap: 8vw;
+
+}
+
+.avtar img {
+    height: 400px;
+}
+
+.home .home-content .text-1 {
+    font-size: 30px;
+}
+
+.purple {
+    font-size: 40px;
+    color: rgb(36, 95, 255);
+    font-weight: 600;
+}
+
+.paragraph {
+    width: 80%;
+}
+
+.home .home-content .text-2 {
+    font-size: 32px;
+}
+
+.home .home-content .text-2 span {
+    font-size: 35px;
+    color: rgb(36, 95, 255);
+    font-weight: 600;
+}
+
+.home .home-content .column {
+    width: 50%;
+}
+
+.home-content p {
+    color: white;
+}
+
+.text-btn {
+    display: flex;
+    border-radius: 10px;
+    cursor: pointer;
+    gap: 20px;
+}
+
+.text-btn .btn {
+    border: none;
+    color: white;
+    margin-top: 15px;
+}
+
+.btn {
+    text-decoration: none;
+    font-size: 15px;
+    padding: 8px 17px;
+    cursor: pointer;
+    border-radius: 10px;
+    background: rgb(36, 95, 255);
+    font-weight: 500;
+    transition: all 0.5s ease;
+}
+
+.btn i {
+    margin: 10px;
+    font-size: 20px;
+}
+
+.icon i {
+    font-size: 20px;
+}
+
+.social-icon {
+    display: flex;
+    margin-top: 30px;
+    margin-left: 5px;
+    gap: 32px;
+}
+
+.social-icon a {
+    color: white;
+}
+
+.social-icon .icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    color: white;
+    cursor: pointer;
+}
+
+@media (max-width: 1200px) {
+    .home {
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .home {
+        height: fit-content;
+        padding-block: 100px;
+    }
+
+    .avtar img {
+        height: 280px;
+
+    }
+}

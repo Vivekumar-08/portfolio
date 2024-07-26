@@ -1,0 +1,137 @@
+/* -----------------------------------Contact---------------------------------------- */
+.contact {
+    padding-block: 70px;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+
+}
+
+.title {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.contact span {
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    width: 550px;
+    height: 315px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid white;
+    resize: none;
+}
+
+.card h2 {
+    color: white;
+    margin-bottom: 15px;
+}
+
+.card .card_find_me a {
+    color: white;
+    text-decoration: none;
+}
+
+.card .card_find_me i {
+    color: white;
+    margin-bottom: 10px;
+}
+
+.form-control {
+    width: 550px;
+}
+
+.form-inputs {
+    margin-bottom: 8px;
+}
+
+.input-field {
+    width: 49%;
+    height: 55px;
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+    padding-inline: 20px;
+    border-radius: 10px;
+    outline: none;
+}
+
+textarea {
+    width: 98%;
+    height: 250px;
+    background: transparent;
+    border: 2px solid white;
+    padding: 15px 20px;
+    color: white;
+    border-radius: 10px;
+    outline: none;
+    resize: none;
+}
+
+.form-button {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.form-button>.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background: rgb(36, 95, 255);
+    padding: 8px 15px;
+    border-radius: 15px;
+    color: white;
+}
+
+.form-button i {
+    font-size: 18px;
+    rotate: 25deg;
+    margin-left: 10px;
+}
+
+@media (max-width: 1300px) {
+    .container {
+        align-items: center;
+        flex-direction: column;
+    }
+    .card{
+        width: 80%;
+        margin-bottom: 20px;
+    }
+    .form-control {
+        width: 80%;
+    }
+}
+@media (max-width: 768px) {
+    .card{
+        height: 280px;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .form-control {
+        width: 100%;
+    }
+    .footer_menu_list a {
+        margin-inline: 10px;
+    }
+}

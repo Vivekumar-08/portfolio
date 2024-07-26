@@ -1,0 +1,145 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #07040e;
+}
+.wrapper{
+    margin-inline: 8vw;
+}
+
+/* ----------------------------Projects ------------------------------*/
+.projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-block: 75px;
+}
+.projects .title {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 50px;
+    padding-bottom: 20px;
+}
+
+.project-content {
+    border: 1px solid white;
+    border-radius: 10px;
+    align-items: center;
+    width: 100%;
+    height: 400px;
+}
+
+.projects .project-content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.project-box {
+    width: 250px;
+    height: 300px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-block: 15px;
+}
+
+.project-box i {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.project-box h3 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.project-box label {
+    font-size: 18px;
+}
+
+
+
+/*-----------------------------Footer-------------------------------*/
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 30px;
+    background: #0e0e1c;
+    padding-block: 40px 60px;
+    color: white;
+}
+
+.middle-footer .footer-menu {
+    display: flex;
+}
+
+.footer_menu_list {
+    list-style: none;
+}
+
+.footer_menu_list a {
+    text-decoration: none;
+    color: var(--text-color);
+    font-weight: 500;
+    margin-inline: 20px;
+}
+
+.footer_menu_list a:hover {
+    color: rgb(36, 95, 255);
+}
+
+.footer-social-icons {
+    display: flex;
+    gap: 30px;
+}
+.footer-social-icons a{
+    color: white;
+}
+
+.bottom-footer {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.bottom-footer a {
+    color: white;
+}
+
+/* ------------------------Responsive Design ------------------------*/
+@media (max-width: 1200px) {
+  
+}
+@media (max-width: 768px) {
+  
+    .about-content {
+        flex-direction: column;
+    }
+
+    .project-content {
+        flex-direction: column;
+    }
+
+    .container {
+        flex-direction: column;
+    }
+    
+}
