@@ -159,28 +159,31 @@
                 <div class="container">
                     <div class="card">
                         <h2>Find me <i class="uis uis-corner-right-down"></i></h2>
-                        <div class="card_find_me"><i class="fa-solid fa-envelope"></i> <a
-                                href="https://mail.to:vk8584686@gmail.com" target="blank">vk8584686@gmail.com</a></div>
-                        <div class="card_find_me"><i class="fa-brands fa-whatsapp"></i> <a
-                                href="https://wa.me/+919304808297" target="blank">Whatsapp me</a>
+                        <div class="card_find_me"><i class="fa-solid fa-envelope"></i> 
+                            <a href="mailto:vk8584686@gmail.com" target="_blank">vk8584686@gmail.com</a>
+                        </div>
+                        <div class="card_find_me"><i class="fa-brands fa-whatsapp"></i> 
+                            <a href="https://wa.me/+919304808297" target="_blank">WhatsApp me</a>
                         </div>
                     </div>
                     <div class="form-control">
                         <input type="hidden" name="access_key" value="7ed7dce4-0848-40c0-9ae7-fc475aea4e85">
                         <div class="form-inputs">
-                            <input type="text" class="input-field" placeholder="Your Name">
-                            <input type="email" class="input-field" placeholder="Your Email">
+                            <input type="text" class="input-field" name="name" placeholder="Your Name" required>
+                            <input type="email" class="input-field" name="email" placeholder="Your Email" required>
                         </div>
                         <div class="text-area">
-                            <textarea placeholder="Message"></textarea>
+                            <textarea name="message" placeholder="Message" required></textarea>
                         </div>
                         <div class="form-button">
-                            <button class="btn">Submit<i class="fa-solid fa-paper-plane"></i></button>
+                            <button type="submit" class="btn">Submit<i class="fa-solid fa-paper-plane"></i></button>
                         </div>
                     </div>
                 </div>
             </form>
         </section>
+        
+
     </main>
     <footer>
         <div class="middle-footer">
