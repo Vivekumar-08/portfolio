@@ -117,7 +117,8 @@
 @media (max-width: 768px) {
 
     .left img {
-        height: 300px;
+        height: 200px;
+        width: 210px;
     }
 
     .about {
@@ -125,9 +126,5 @@
         flex-direction: column;
         height: fit-content;
         padding-block: 100px;
-    }
-
-    .column-left img{
-        height: 280px;
     }
 }
