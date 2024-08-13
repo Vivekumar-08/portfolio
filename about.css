@@ -25,13 +25,12 @@
 .column-left img {
     width: 250px;
     height: 240px;
-    object-fit: cover;
     border-radius: 50%;
     margin-top: 50px;
     box-shadow: 0.2px 0.1px 11px rgb(255, 221, 158);
 }
 
-.right p{
+.right p {
     display: flex;
     margin-top: 30px;
     font-size: 18px;
@@ -45,7 +44,7 @@
 /*-----------------------------skill------------------------ */
 
 .skills {
-    box-shadow: 0.2px 0.1px 9px rgb(255, 221, 158);
+    box-shadow: 0.2px 0.1px 11px rgb(255, 221, 158);
     border-radius: 10px;
     height: 300px;
     width: 50%;
@@ -118,7 +117,7 @@
 
     .left img {
         height: 200px;
-        width: 210px;
+        width: 200px;
     }
 
     .about {
