@@ -47,13 +47,13 @@
     <main class="wrapper">
         <section class="home" id="home">
             <div class="avtar">
-                <img src="image/image.png" alt="">
+                <img src="image/profile_image.png" alt="">
             </div>
             <div class="info">
                 <div class="home-content">
-                    <div class="text-1">Hi, My name is <span class="purple">Vivek</span></div>
-                    <div class="text-2">and I am a <span>Web Developer</span></div>
-                    <p class="paragraph">I am a skilled web developer with experience in creating visually appealing and
+                    <div class="text-1">Hi, My name is <span>Vivek</span></div>
+                    <div class="text-2">I'm <span id="element"></span></div>
+                    <p class="paragraph">I am a skilled developer with experience in creating visually appealing and
                         user friendly websites.</p>
                 </div>
                 <div class="text-btn">
@@ -80,7 +80,7 @@
             <h2 class="title">About Me</h2>
             <div class="about-content">
                 <div class="column-left">
-                    <img src="image/image.png" alt="Vivek's Image">
+                    <img src="image/profile_image.png" alt="Vivek's Image">
                     <div class="column right">
                         <p>I am a student skilled in front-end development with extensive experience in HTML, CSS, and
                             JavaScript. I create visually appealing and user-friendly websites. Additionally, I have a
@@ -132,7 +132,6 @@
             </div>
         </section>
         <section class="projects" id="projects">
-
             <h2 class="title">Projects</h2>
             <div class="project-content">
                 <div class="project-box">
@@ -185,6 +184,13 @@
         
 
     </main>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Web Developer', 'Desinger'],
+          typeSpeed: 120,
+        });
+      </script>
     <footer>
         <div class="middle-footer">
             <ul class="footer-menu">
