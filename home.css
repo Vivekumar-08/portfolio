@@ -29,12 +29,11 @@
 
 .paragraph {
     width: 80%;
-    font-size: 14px;
+    font-size: 10px;
 }
 
 .text-2 {
-    font-size: 26px;
-    font-weight: 600;
+    font-size: 26px; 
 }
 
 .text-2 span {
@@ -76,8 +75,6 @@
 .btn:hover {
     background-color: rgb(243, 176, 52);
     font-size: 16px;
-
-
 }
 
 .btn a {
@@ -154,30 +151,6 @@
 
     .social-icon {
         justify-content: center;
-    }
-    .text-1 {
-        font-size: 24px;
-    }
-    
-    .text-1 span {
-        font-size: 26px;
-        color: rgb(243, 176, 52);
-        font-weight: bold;
-    }
-    
-    .paragraph {
-        font-size: 8px;
-    }
-    
-    .text-2 {
-        font-size: 22px;
-    }
-    
-    .text-2 span {
-        font-size: 22px;
-        color: rgb(243, 176, 52);
-        font-weight: bold;
-    }
-    
+    }    
 
 }
