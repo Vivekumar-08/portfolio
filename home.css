@@ -29,11 +29,12 @@
 
 .paragraph {
     width: 80%;
-    font-size: 10px; 
+    font-size: 14px; 
 }
 
 .text-2 {
     font-size: 26px; 
+    font-weight: 600;
 }
 
 .text-2 span {
@@ -152,6 +153,9 @@
 
     .social-icon {
         justify-content: center;
-    }    
+    } 
+    .paragraph {
+        font-size: 10px; 
+    }   
 
 }
