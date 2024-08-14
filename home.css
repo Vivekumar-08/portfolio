@@ -149,11 +149,12 @@
     }
 
     .text-2 {
-        font-size: 32px;
+        font-size: 26px;
+        font-weight: 600;
     }
 
     .text-2 span {
-        font-size: 35px;
+        font-size: 28px;
     }
 
     .text-btn {
