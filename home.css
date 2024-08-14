@@ -22,13 +22,12 @@
 }
 
 .text-2 {
-    font-size: 40px;
-    font-weight: 600;
+    font-size: 60px; 
 
 }
 
 .text-2 span {
-    font-size: 45px;
+    font-size: 65px;
     color: rgb(243, 176, 52);
 }
 
@@ -150,11 +149,11 @@
     }
 
     .text-2 {
-        font-size: 26px;
+        font-size: 32px;
     }
 
     .text-2 span {
-        font-size: 28px;
+        font-size: 35px;
     }
 
     .text-btn {
