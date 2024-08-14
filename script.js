@@ -9,3 +9,10 @@ document.querySelectorAll('.nav-link').forEach(link => {
       navBar.classList.remove('active');
   });
 });
+
+var typed = new Typed('#element', {
+    strings: [' Wed Developer', 'Desinger', 'App Developer', 'Developer'],
+    typeSpeed: 170,
+    backSpeed: 80,
+    loop: true
+});
