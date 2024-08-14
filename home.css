@@ -143,27 +143,21 @@
         justify-content: center;
     }
 
-    .avtar img {
-        margin-top: 10px;
+    .avtar img { 
         height: 300px;
         width: 300px;
     }
 
     .text-2 {
-        font-size: 24px;
+        font-size: 26px;
     }
 
     .text-2 span {
-        font-size: 26px;
+        font-size: 26px; 
     }
 
     .text-btn {
         justify-content: center;
-    }
-
-    .btn {
-        font-size: 14px;
-
     }
 
     .social-icon {
@@ -171,17 +165,17 @@
     }
 
     .paragraph {
-        font-size: 10px;
+        font-size: 12px;
     }
 
     .hire-btn {
-        width: 70px;
-        font-size: 12px;
+        width: 80px;
+        font-size: 14px;
     }
 
     .download-btn {
-        width: 130px;
-        font-size: 12px;
+        width: 140px;
+        font-size: 14px;
     }
 
 }

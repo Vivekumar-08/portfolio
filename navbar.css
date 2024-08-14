@@ -23,7 +23,7 @@ nav {
 
 .nav-logo {
     font-size: 35px;
-    font-weight: 600;
+    font-weight: 600; 
 }
 
 .nav-bar li {
@@ -78,5 +78,10 @@ nav {
 
     .menulinebtn {
         display: block;
+    }
+    .nav-logo {
+        font-size: 27px;
+        font-weight: 400;
+
     }
 }
