@@ -143,7 +143,7 @@
         justify-content: center;
     }
 
-    .avtar img { 
+    .avtar img {
         height: 300px;
         width: 300px;
     }
@@ -153,7 +153,7 @@
     }
 
     .text-2 span {
-        font-size: 26px; 
+        font-size: 26px;
     }
 
     .text-btn {
@@ -165,17 +165,8 @@
     }
 
     .paragraph {
-        font-size: 12px;
-    }
-
-    .hire-btn {
-        width: 80px;
-        font-size: 14px;
-    }
-
-    .download-btn {
-        width: 140px;
-        font-size: 14px;
+        margin-top: 8px;
+        font-size: 16px;
     }
 
 }
