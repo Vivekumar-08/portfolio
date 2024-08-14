@@ -22,12 +22,12 @@
 }
 
 .text-2 {
-    font-size: 60px; 
+    font-size: 55px; 
+    font-weight: 600;
 
 }
 
-.text-2 span {
-    font-size: 65px;
+.text-2 span { 
     color: rgb(243, 176, 52);
 }
 
@@ -55,7 +55,7 @@
     width: 100px;
     margin-top: 20px;
     font-size: 16px;
-    padding: 12px;
+    padding: 13px;
     cursor: pointer;
     border: 0.5px solid rgb(243, 176, 52);
     border-radius: 10px;
@@ -66,8 +66,7 @@
 .download-btn {
     width: 170px;
     margin-top: 20px;
-    font-size: 16px;
-    padding: 12px;
+    font-size: 16px; 
     cursor: pointer;
     border: 0.5px solid rgb(243, 176, 52);
     border-radius: 10px;
