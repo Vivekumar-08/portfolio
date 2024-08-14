@@ -44,8 +44,9 @@
 /*-----------------------------skill------------------------ */
 
 .skills {
+    background: rgb(0, 5, 17);
     margin-top: 80px;
-    box-shadow: 0.2px 0.1px 11px rgb(255, 221, 158);
+    box-shadow: 0.2px 0.1px 11px rgb(106, 106, 122);
     border-radius: 10px;
     height: 300px;
     width: 50%;
@@ -79,12 +80,12 @@
     display: flex;
     padding: 10px;
     align-items: flex-start;
-    font-size: 20px;
+    font-size: 16px;
     margin: 10px;
 }
 
 .logo img {
-    height: 30px;
+    height: 25px;
 }
 
 @media (max-width: 1200px) {
@@ -128,7 +129,9 @@
         height: fit-content;
         padding-block: 100px;
     }
-    .right p {  
-        font-size: 12px; 
+
+    .right p {
+        font-size: 16px;
+        text-align: center;
     }
 }
