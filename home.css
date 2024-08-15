@@ -53,11 +53,11 @@
 
 .hire-btn {
     width: 100px;
-    margin-top: 20px;
-    font-size: 16px;
+    margin-top: 25px;
+    font-size: 18px;
     padding: 13px;
     cursor: pointer;
-    border: 0.5px solid rgb(243, 176, 52);
+    border: 1.5px solid rgb(243, 176, 52);
     border-radius: 10px;
     background: rgb(8, 0, 0);
     transition: all 0.5s ease;
@@ -66,9 +66,9 @@
 .download-btn {
     width: 170px;
     margin-top: 25px;
-    font-size: 16px;
+    font-size: 18px;
     cursor: pointer;
-    border: 0.5px solid rgb(243, 176, 52);
+    border: 1.5px solid rgb(243, 176, 52);
     border-radius: 10px;
     background: rgb(8, 0, 0);
     transition: all 0.5s ease;
@@ -76,26 +76,19 @@
 
 .download-btn:hover {
     background-color: rgb(243, 176, 52);
-    ;
 }
 
 .hire-btn:hover {
     background-color: rgb(243, 176, 52);
-    ;
 }
 
 .download-btn i {
-    font-size: 18px;
-}
-
-.icon i {
     font-size: 20px;
 }
 
 .social-icon {
     display: flex;
     margin-top: 25px;
-    margin-left: 10px;
     gap: 32px;
 }
 
@@ -109,14 +102,17 @@
     align-items: center;
     width: 40px;
     height: 40px;
-    color: white;
     cursor: pointer;
+}
+
+.icon i {
+    font-size: 25px;
 }
 
 .icon:hover {
     border: 0.1px solid rgb(243, 176, 52);
     border-radius: 50%;
-    box-shadow: 0.1px 1px 10px rgb(229, 210, 173);
+    box-shadow: 0px 0px 5px 1px rgb(229, 210, 173);
 }
 
 @media (max-width: 1200px) {
@@ -162,6 +158,10 @@
 
     .social-icon {
         justify-content: center;
+    }
+
+    .icon i {
+        font-size: 20px;
     }
 
     .paragraph {
