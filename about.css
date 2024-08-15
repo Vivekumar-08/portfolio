@@ -45,11 +45,10 @@
 
 .skills {
     background: rgb(0, 5, 17);
-    margin-top: 80px;
     box-shadow: 0.2px 0.1px 11px rgb(106, 106, 122);
     border-radius: 10px;
-    height: 300px;
-    width: 50%;
+    height: 400px;
+    width: 60%;
     text-align: center;
     padding-top: 15px;
     display: flex;
@@ -58,22 +57,12 @@
 }
 
 .skills h2 {
-    font-size: 30px;
+    font-size: 28px;
     font-weight: 600;
-}
-.skills p{
-    font-size: 12px;
-    padding-top: 22px;
-    padding-right: 100%;
-}
-
-.cont {
-    display: flex;
-    justify-content: flex-end;
 }
 
 .skill-content {
-    gap: 10px;
+    gap: 15px;
     flex-wrap: wrap;
     overflow: hidden;
     display: flex;
@@ -85,12 +74,26 @@
     display: flex;
     padding: 10px;
     align-items: flex-start;
-    font-size: 17px;
+    font-size: 16px;
     margin: 10px;
 }
 
 .logo img {
-    width: 30px;
+    width: 40px;
+}
+
+.logo-name {
+    display: flex;
+    padding-left: 7px;
+}
+
+.logo-parag {
+    display: flex;
+    padding-left: 7px;
+}
+
+.logo-parag p {
+    font-size: 14px;
 }
 
 @media (max-width: 1200px) {
@@ -111,7 +114,7 @@
     }
 
     .skills {
-        width: 80%;
+        width: 100%;
         margin-top: 10px;
         height: fit-content;
     }
@@ -138,5 +141,5 @@
     .right p {
         font-size: 16px;
         text-align: center;
-    } 
+    }
 }
