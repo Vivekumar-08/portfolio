@@ -39,7 +39,7 @@
     align-items: center;
     padding: 10px;
     border-radius: 10px;
-    box-shadow: 0.1px 0.1px 7px rgb(106, 106, 122);
+    box-shadow: 0.1px 0.1px 3px 1px rgb(106, 106, 122);
     resize: none;
 }
 
@@ -71,7 +71,7 @@
 .input-field {
     width: 49%;
     height: 55px;
-    background: rgb(1, 1, 10);
+    background: rgb(0, 5, 17);
     border: 1px solid white;
     color: white;
     padding-inline: 20px;

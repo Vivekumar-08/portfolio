@@ -34,24 +34,29 @@ body {
 }
 
 .project-content {
-    box-shadow: 0.1px 0.1px 7px rgb(106, 106, 122);
+    box-shadow: 0.1px 0.1px 3px 1px rgb(106, 106, 122);
     border-radius: 10px;
     align-items: center;
     width: 100%;
-    padding: 15px;
+    height: 450px;
     background: rgb(0, 5, 17);
 }
 
-.projects .project-content {
+.project-content h3 {
+    color: white;
+
+}
+
+.project-content {
     display: flex;
     justify-content: space-around;
 }
 
 .project-box {
-    padding: 15px;
-    height: 350px;
+    height: 300px;
+    width: 250px;
     color: white;
-    box-shadow: 0.2px 0.1px 11px rgb(106, 106, 122);
+    border: 1px solid rgb(161, 159, 159);
     border-radius: 10px;
     transition: transform 0.3s ease;
     display: flex;
@@ -60,21 +65,18 @@ body {
     justify-content: center;
     align-items: center;
     margin-block: 15px;
+    background: rgb(0, 5, 17);
 }
 
-.project-box i {
-    font-size: 50px;
-    margin-bottom: 10px;
+.projectPhoto img {
+    width: 150px;
+    height: 145px;
+    border-radius: 50%;
 }
 
-.project-box h3 {
-    font-size: 24px;
+.project-box span {
+    padding-top: 10px;
     font-weight: 600;
-    margin-bottom: 5px;
-}
-
-.project-box label {
-    font-size: 18px;
 }
 
 
@@ -132,8 +134,9 @@ footer {
 @media (max-width: 768px) {
 
     .project-content {
+        width: 100%;
         flex-direction: column;
-        padding: 20px;
+        height: fit-content;
     }
 
     .container {
