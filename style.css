@@ -17,7 +17,7 @@ body {
     margin-inline: 8vw;
 }
 
-/* ----------------------------Projects ------------------------------*/
+/* ---------------------------- Projects ------------------------------*/
 .projects {
     display: flex;
     flex-direction: column;
@@ -31,7 +31,6 @@ body {
     font-size: 40px;
     font-weight: 500;
     margin-bottom: 50px;
-    padding-bottom: 20px;
 }
 
 .project-content {
@@ -41,7 +40,6 @@ body {
     width: 100%;
     padding: 15px;
     background: rgb(0, 5, 17);
-    ;
 }
 
 .projects .project-content {
@@ -81,7 +79,7 @@ body {
 
 
 
-/*-----------------------------Footer-------------------------------*/
+/*----------------------------- Footer -------------------------------*/
 footer {
     display: flex;
     justify-content: center;
@@ -140,10 +138,6 @@ footer {
 
     .container {
         flex-direction: column;
-    }
-
-    .projects .title {
-        margin-bottom: 20px;
     }
 
 }
