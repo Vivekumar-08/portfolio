@@ -2,8 +2,7 @@
 .home {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    height: 100vh;
+    justify-content: space-around;
     color: white;
     min-height: 700px;
     gap: 12vw;
@@ -138,7 +137,6 @@
     }
 
     .avtar img {
-        margin-top: 20px;
         height: 300px;
         width: 300px;
     }

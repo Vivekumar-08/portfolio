@@ -2,16 +2,17 @@
 .about {
     display: flex;
     flex-direction: column;
-    padding-block: 100px;
-    height: 100vh;
     color: white;
-    min-height: 700px;
 }
 
 .about-content {
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+.title {
+    font-size: 35px;
 }
 
 .column-left {
@@ -26,7 +27,7 @@
     width: 300px;
     height: 300px;
     border-radius: 50%;
-    margin-top: 50px;
+    margin-top: 45px;
     box-shadow: 0.2px 0.1px 11px rgb(255, 221, 158);
 }
 
@@ -46,19 +47,19 @@
 .skills {
     background: rgb(0, 5, 17);
     box-shadow: 0.1px 0.1px 3px 1px rgb(106, 106, 122);
-    border-radius: 10px;  
+    border-radius: 10px;
     height: 400px;
     width: 60%;
     text-align: center;
-    padding-top: 15px;
     display: flex;
     flex-direction: column;
+    margin-top: 45px;
 }
 
 
 .skills h2 {
     font-size: 28px;
-    font-weight: 600;
+    padding-top: 15px;
 }
 
 .skill-content {
@@ -97,10 +98,6 @@
 }
 
 @media (max-width: 1200px) {
-    .about {
-        height: fit-content;
-    }
-
     .about-content {
         display: flex;
         flex-direction: column;
@@ -110,13 +107,19 @@
 
     .column-left {
         width: 100%;
-        margin-bottom: 50px;
+        padding-bottom: 25px;
     }
 
     .skills {
         width: 100%;
-        height: fit-content;
+        margin-top: 25px;
     }
+
+    .skills h2 {
+        font-size: 24px;
+        padding-top: 15px;
+    }
+
 }
 
 @media (max-width: 768px) {
@@ -129,12 +132,41 @@
     .about {
         display: flex;
         flex-direction: column;
-        height: fit-content;
-        padding-block: 100px;
     }
 
     .right p {
         font-size: 16px;
         text-align: center;
+    }
+
+    .logo {
+        margin: 5px;
+        padding: 2px;
+    }
+
+    .logo img {
+        width: 30px;
+    }
+
+    .logo-name {
+        display: flex;
+        padding-left: 5px;
+    }
+
+    .logo-name h3 {
+        font-size: 15px;
+    }
+
+    .logo-parag {
+        display: flex;
+        padding-left: 5px;
+    }
+
+    .logo-parag p {
+        font-size: 11px;
+    }
+
+    .title {
+        font-size: 35px;
     }
 }
