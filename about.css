@@ -2,7 +2,8 @@
 .about {
     display: flex;
     flex-direction: column;
-    color: white; 
+    color: white;
+    padding-top: 70px;
 }
 
 .about-content {
@@ -46,7 +47,7 @@
 
 .skills {
     background: rgb(0, 5, 17);
-    box-shadow: 0.2px 0.2px 3px 2px rgb(106, 106, 122);
+    box-shadow: 0.2px 0.2px 5px 0.3px rgb(106, 106, 122);
     border-radius: 10px;
     height: 400px;
     width: 60%;
@@ -55,7 +56,6 @@
     flex-direction: column;
     margin-top: 45px;
 }
-
 
 .skills h2 {
     font-size: 28px;
