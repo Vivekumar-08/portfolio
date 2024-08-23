@@ -6,6 +6,7 @@
     color: white;
     min-height: 700px;
     gap: 12vw;
+    height: 100vh;
 }
 
 .avtar img {

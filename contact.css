@@ -3,7 +3,7 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    padding-top: 45px;
+    padding-top: 45px; 
 }
 
 .title {
@@ -39,7 +39,7 @@
     align-items: center;
     padding: 10px;
     border-radius: 10px;
-    box-shadow: 0.1px 0.1px 3px 1px rgb(106, 106, 122);
+    box-shadow: 0.2px 0.2px 3px 2px rgb(106, 106, 122);
     resize: none;
 }
 

@@ -2,7 +2,7 @@
 .about {
     display: flex;
     flex-direction: column;
-    color: white;
+    color: white; 
 }
 
 .about-content {
@@ -46,7 +46,7 @@
 
 .skills {
     background: rgb(0, 5, 17);
-    box-shadow: 0.1px 0.1px 3px 1px rgb(106, 106, 122);
+    box-shadow: 0.2px 0.2px 3px 2px rgb(106, 106, 122);
     border-radius: 10px;
     height: 400px;
     width: 60%;
@@ -81,6 +81,7 @@
 
 .logo img {
     width: 40px;
+    height: 40px;
 }
 
 .logo-name {
@@ -146,6 +147,7 @@
 
     .logo img {
         width: 30px;
+        height: 30px;
     }
 
     .logo-name {
@@ -154,7 +156,7 @@
     }
 
     .logo-name h3 {
-        font-size: 15px;
+        font-size: 17px;
     }
 
     .logo-parag {
@@ -163,7 +165,7 @@
     }
 
     .logo-parag p {
-        font-size: 11px;
+        font-size: 12px;
     }
 
     .title {
