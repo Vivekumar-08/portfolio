@@ -11,7 +11,7 @@ document.querySelectorAll(".nav-link").forEach((link) => {
 });
 
 var typed = new Typed("#element", {
-  strings: ["App Developer", "Desinger", "Developer"],
+  strings: ["Web Developer", "Desinger", "Developer"],
   typeSpeed: 170,
   backSpeed: 80,
   loop: true,
